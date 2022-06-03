@@ -1,0 +1,19 @@
+Package: RProjektEWS
+Type: Package
+Title: Eine Zusammenfassung ueber die Medikamenten von der FDA
+Version: 0.1.0
+Author: Tiantian Liu <ge35hud@mytum.de> [cre, aut]
+Maintainer: Tiantian Liu <ge35hud@mytum.de>
+Description: Dies ist eine Zusammenfassung von den Medikamenten in den USA, die eine Funktion zur Darstellung einer Grafik, eine Funktion zur Berechnung von der numerische Zusammenhang, eine Funktion zum Herunterladen von den Daten durch API, sowie einen Beispieldatensatz enthaelt. Quelle ist FDA (Food and Drugs Administration).
+License: Keine
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr,
+    httr,
+    jsonlite,
+    ggplot2,
+    parsedate
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
